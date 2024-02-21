@@ -33,7 +33,7 @@ public class TransferenciaController {
 
     @PostMapping(value = "/transferencia")
     @Operation(summary = "Retorna Dados da Transferência realizada e Status da mesma")
-    ResponseEntity<TransferenciaResponse> execute(
+    public ResponseEntity<TransferenciaResponse> execute(
             @RequestBody @Valid TransferenciaRequest request
     ) throws IOException {
 

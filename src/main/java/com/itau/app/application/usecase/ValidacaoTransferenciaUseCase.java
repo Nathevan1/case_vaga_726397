@@ -48,8 +48,8 @@ public class ValidacaoTransferenciaUseCase {
                 transacaoDia = transacaoDia.add(item.getValorTransferencia()).add(valorTransferencia);
             }
 
-            if(transacaoDia.compareTo(new BigDecimal("1000.00")) > 0)
-                throw new ValidacaoTransferenciaException("Limite diário de transferência é R$1000.00.");
+            if(transacaoDia.compareTo(new BigDecimal("1000.01")) > 0)
+                throw new ValidacaoTransferenciaException("Limite diário de transferência é R$1000.00");
 
         } else {
             logger.info("Cliente não possui transações de transferência registradas");

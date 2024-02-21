@@ -32,7 +32,7 @@ public class ConsultaSaldoController {
 
     @GetMapping(value = "/saldocliente")
     @Operation(summary = "Retorna o Saldo do Cliente, baseado no filtro feito pelo Nome do Cliente")
-    ResponseEntity<ConsultaSaldoResponse> execute(
+    public ResponseEntity<ConsultaSaldoResponse> execute(
             @RequestBody @Valid ConsultaSaldoRequest request
     ) throws IOException {
 
