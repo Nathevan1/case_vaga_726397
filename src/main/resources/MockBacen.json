@@ -1,0 +1,16 @@
+{
+  "mock": [
+    {
+      "status": "SUCESSO",
+      "codigo": "200"
+    },
+    {
+      "status": "RATELIMIT",
+      "codigo": "429"
+    },
+    {
+      "status": "ERRO",
+      "codigo": "500"
+    }
+  ]
+}

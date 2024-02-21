@@ -1,0 +1,68 @@
+{
+  "mock": [
+    {
+      "nomeCliente": "João da Silva",
+      "numeroAgencia": "001",
+      "numeroConta": "0001",
+      "tipoConta": "CORRENTE",
+      "saldoConta": "1500.00",
+      "statusConta": "ATIVA"
+    },
+    {
+      "nomeCliente": "João da Silva Santos",
+      "numeroAgencia": "011",
+      "numeroConta": "0011",
+      "tipoConta": "CORRENTE",
+      "saldoConta": "1500.00",
+      "statusConta": "INATIVA"
+    },
+    {
+      "nomeCliente": "João de Olivera",
+      "numeroAgencia": "002",
+      "numeroConta": "0002",
+      "tipoConta": "POUPANCA",
+      "saldoConta": "159.00",
+      "statusConta": "ATIVA"
+    },
+    {
+      "nomeCliente": "João de Olivera Santos",
+      "numeroAgencia": "022",
+      "numeroConta": "0022",
+      "tipoConta": "POUPANCA",
+      "saldoConta": "159.00",
+      "statusConta": "INATIVA"
+    },
+    {
+      "nomeCliente": "João Alves",
+      "numeroAgencia": "003",
+      "numeroConta": "0003",
+      "tipoConta": "SALARIO",
+      "saldoConta": "0.0",
+      "statusConta": "ATIVA"
+    },
+    {
+      "nomeCliente": "João Alves Santos",
+      "numeroAgencia": "033",
+      "numeroConta": "0033",
+      "tipoConta": "SALARIO",
+      "saldoConta": "0.0",
+      "statusConta": "INATIVA"
+    },
+    {
+      "nomeCliente": "João Rodrigues",
+      "numeroAgencia": "004",
+      "numeroConta": "0004",
+      "tipoConta": "INVESTIMENTO",
+      "saldoConta": "100000.00",
+      "statusConta": "ATIVA"
+    },
+    {
+      "nomeCliente": "João Rodrigues Santos",
+      "numeroAgencia": "004",
+      "numeroConta": "0004",
+      "tipoConta": "INVESTIMENTO",
+      "saldoConta": "100000.00",
+      "statusConta": "INATIVA"
+    }
+  ]
+}
