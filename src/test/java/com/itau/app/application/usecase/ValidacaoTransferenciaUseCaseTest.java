@@ -69,7 +69,7 @@ class ValidacaoTransferenciaUseCaseTest {
     void teste2(){
         Transferencia transferencia1 = new Transferencia();
         transferencia1.setId(123L);
-        transferencia1.setNomeCliente("eae");
+        transferencia1.setNomeCliente("Novo Teste Dantesco");
         transferencia1.setValorTransferencia(new BigDecimal("999"));
         transferencia1.setData(LocalDate.now());
         transferencia1.setCodigoBancoDestino("001");
